@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function(){
         time: dateInput.value,
         phone: "+27679590274"
     };
+
+    fetch("http://")
     
     console.log(data);
         });
