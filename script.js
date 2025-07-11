@@ -13,9 +13,23 @@ document.addEventListener("DOMContentLoaded", function(){
         phone: "+27679590274"
     };
 
-    fetch("http://")
-    
-    console.log(data);
+    fetch("http://localhost:3000/send-sms",{
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(result=>{
+        if(result.success){
+            alert("SMS sent!");
+        }
+        else{
+            alert("Failed to send SMS.");
+            console.error(result.error);
+        }
+    })
         });
     });
     
