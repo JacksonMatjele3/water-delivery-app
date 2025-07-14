@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function(){
     {
         location: locationInput.value,
         date: dateInput.value,
-        time: dateInput.value,
-        phone: "+27679590274"
+        time: timeInput.value,
+        phone: "+27699510889"
     };
 
     fetch("http://localhost:3000/send-sms",{
