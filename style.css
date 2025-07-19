@@ -34,7 +34,7 @@ nav{
     top: 0;
     left: 0;
     color: white;
-    padding: 10px 45px;
+    padding: 10px 25px;
     font-size: 25px;
     font-weight: bold;
     background: linear-gradient(to bottom, #e0f7fa, #b2bef2,#4fc3f7);
@@ -42,12 +42,10 @@ nav{
 
 .container .text{
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    background: -webkit-linear-gradient(right, #46a84b, #b2bef2,#4fc3f7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
 }
 
 .container form{
